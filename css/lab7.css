@@ -149,7 +149,10 @@ a:hover {
 }
 
 /* 5. MEDIA QUERIES */
-media screen and (max-width: 768px) {
+/* Tablet */
+@media screen and (max-width: 768px) {
 }
-media screen and (max-width: 480px) {
+
+/* Mobile */
+@media screen and (max-width: 480px) {
 }
