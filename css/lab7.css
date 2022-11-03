@@ -149,10 +149,25 @@ a:hover {
 }
 
 /* 5. MEDIA QUERIES */
-/* Tablet */
-@media screen and (max-width: 768px) {
-}
 
-/* Mobile */
-@media screen and (max-width: 480px) {
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+  #article1,
+  #article2 {
+    flex: 0 0 50%;
+  }
+
+  #article3 {
+  }
+
+  /*   
+  .article.article-3 {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .item {
+    flex: 0 0 50%;
+    flex-wrap: wrap;
+  } */
 }

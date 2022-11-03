@@ -3,6 +3,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <!-- this is needed to make the media queries work properly in mobile/tablet devices -->
     <title>Lab 7 - Media Queries</title>
     <link rel="stylesheet" type="text/css" href="css/lab7.css" />
   </head>
@@ -26,30 +28,33 @@
       <section id="articles">
         <h2>Read about CSS</h2>
         <div class="articles-container">
-          <div class="article">
+          <div id="article1" class="article">
             <a href="#">
               <img
-                src="img/GettyImages-594381095-5c4a2dc946e0fb0001327ea1.jpg"
+                src="img/ddlri8g-8a181c6b-f71e-4dce-a817-529c08a9a2da.jpg"
+                alt="Jedi Order emblem"
               />
-              <!--picture source: https://www.thoughtco.com/thmb/xcb1Myp0OFPsOnlB77AfXVblLwY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-594381095-5c4a2dc946e0fb0001327ea1.jpg-->
+              <!--picture source: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5323819f-c83d-451e-8fce-c2f3337bfd3d/ddlri8g-8a181c6b-f71e-4dce-a817-529c08a9a2da.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUzMjM4MTlmLWM4M2QtNDUxZS04ZmNlLWMyZjMzMzdiZmQzZFwvZGRscmk4Zy04YTE4MWM2Yi1mNzFlLTRkY2UtYTgxNy01MjljMDhhOWEyZGEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NKxv1XZlzlwVaQhJpVKozyDIFuP8PKPz3tdH2EzGbgw-->
               <h3>Article 1</h3>
             </a>
           </div>
-          <div class="article">
+          <div id="article2" class="article">
             <a href="#">
               <img
-                src="img/GettyImages-594381095-5c4a2dc946e0fb0001327ea1.jpg"
+                src="img/ddlri8g-8a181c6b-f71e-4dce-a817-529c08a9a2da.jpg"
+                alt="Jedi Order emblem"
               />
-              <!--picture source: https://www.thoughtco.com/thmb/xcb1Myp0OFPsOnlB77AfXVblLwY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-594381095-5c4a2dc946e0fb0001327ea1.jpg-->
+              <!--picture source: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5323819f-c83d-451e-8fce-c2f3337bfd3d/ddlri8g-8a181c6b-f71e-4dce-a817-529c08a9a2da.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUzMjM4MTlmLWM4M2QtNDUxZS04ZmNlLWMyZjMzMzdiZmQzZFwvZGRscmk4Zy04YTE4MWM2Yi1mNzFlLTRkY2UtYTgxNy01MjljMDhhOWEyZGEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NKxv1XZlzlwVaQhJpVKozyDIFuP8PKPz3tdH2EzGbgw-->
               <h3>Article 2</h3>
             </a>
           </div>
-          <div class="article">
+          <div id="article3" class="article">
             <a href="#">
               <img
-                src="img/GettyImages-594381095-5c4a2dc946e0fb0001327ea1.jpg"
+                src="img/ddlri8g-8a181c6b-f71e-4dce-a817-529c08a9a2da.jpg"
+                alt="Jedi Order emblem"
               />
-              <!--picture source: https://www.thoughtco.com/thmb/xcb1Myp0OFPsOnlB77AfXVblLwY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-594381095-5c4a2dc946e0fb0001327ea1.jpg-->
+              <!--picture source: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5323819f-c83d-451e-8fce-c2f3337bfd3d/ddlri8g-8a181c6b-f71e-4dce-a817-529c08a9a2da.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUzMjM4MTlmLWM4M2QtNDUxZS04ZmNlLWMyZjMzMzdiZmQzZFwvZGRscmk4Zy04YTE4MWM2Yi1mNzFlLTRkY2UtYTgxNy01MjljMDhhOWEyZGEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NKxv1XZlzlwVaQhJpVKozyDIFuP8PKPz3tdH2EzGbgw-->
               <h3>Article 3</h3>
             </a>
           </div>
