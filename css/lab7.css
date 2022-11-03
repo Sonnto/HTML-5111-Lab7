@@ -120,6 +120,11 @@ a:hover {
   flex: 1 0 0;
 }
 
+.article a img {
+  width: 100%;
+  height: auto;
+}
+
 /* -- 4b. Gallery */
 #gallery {
   background-color: var(--main-accent);
@@ -153,21 +158,21 @@ a:hover {
 /* Tablet */
 
 @media screen and (max-width: 768px) {
-  #article1,
-  #article2 {
-    flex: 0 0 50%;
-  }
-
   #article3 {
+    flex: 0 0 100%;
   }
 
-  /*   
-  .article.article-3 {
-    flex-basis: 100%;
-    width: 100%;
-  }
   .item {
     flex: 0 0 50%;
-    flex-wrap: wrap;
-  } */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .article {
+    flex: 0 0 100%;
+  }
+
+  #main-menu li {
+    display: block;
+  }
 }
